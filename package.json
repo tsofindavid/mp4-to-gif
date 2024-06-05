@@ -1,11 +1,15 @@
 {
   "name": "mp4-to-gif",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "client:dev": "npm run -w client watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "David Tsofin",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "./packages/*"
+  ]
 }
