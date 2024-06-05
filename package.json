@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "client:dev": "npm run -w client watch",
+    "client:dev": "npm run -w client start",
+    "server:dev": "npm run -w client start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Tsofin",
