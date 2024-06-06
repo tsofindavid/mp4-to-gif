@@ -1,3 +1,9 @@
-.file-uploaders {
-  width: 20rem;
+
+.file-upload {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
+

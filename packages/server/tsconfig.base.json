@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": false,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "lib": [
+      "es2020",
+      "DOM",
+      "ESNext.String"
+    ],
+    "baseUrl": "./src",
+    "types": [
+      "node"
+    ]
+  },
+  "files": [
+    "src/custom.d.ts"
+  ]
+}
